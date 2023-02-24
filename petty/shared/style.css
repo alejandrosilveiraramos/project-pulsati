@@ -1,0 +1,28 @@
+/* Buttons --Começo*/
+
+.primary-btn {
+    color: #000;
+    background-color: #f7f6f9;
+    padding: .8rem 2rem;
+    border: none;
+}
+
+.primary-lbl{
+    border: 2px solid #f7f6f9;
+    padding: 1.4rem .8rem;
+
+}
+.secundary-btn {
+    color: #fff;
+    background-color: #a66fd1;
+    padding: .8rem 2rem;
+    border: none;
+}
+
+.secundary-lbl{
+    border: 2px solid #a66fd1;
+    padding: 1.4rem .8rem;
+
+}
+
+/* Buttons --Fim*/
