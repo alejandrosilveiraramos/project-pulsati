@@ -21,13 +21,107 @@ html{
     background-position: center top 80px;
 }
 
-
-@media (max-width: 768px) {
+/* Responsividade --Começo*/
+/* Iphone 5: 320 x 568 */
+@media (max-width: 374px) {
     html {
-        background-size: 100% auto;
-        -webkit-background-size: 100% auto;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 45%;
+    }
+}
+
+/* Iphone 6: 375 x 667 */
+@media (min-width: 375px) and (max-width: 413px) {
+    html {
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 100%;
+    }
+}
+
+/* Ipad: 1024 x 768 */
+@media (min-width: 768px) and (max-width: 1024px) {
+    html {
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 38%;
+    }
+}
+
+/* Laptop: 1440 x 900 */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    html {
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 50%;
+    }
+}
+
+/* Desktop HD: 1680 x 1050 */
+@media (min-width: 1441px) and (max-width: 1680px) {
+    html {
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 56%;
+    }
+}
+
+/* Desktop Full HD: 1920 x 1080 */
+@media (min-width: 1681px) and (max-width: 1920px) {
+    html {
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 65%;
+    }
+}
+
+/* Desktop 4k: 2560 x 1440 */
+@media (min-width: 1921px) and (max-width: 2560px) {
+    html {
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 80%;
+    }
+    .flex-header nav {
+        margin-left: -20rem;
+    }
+}
+
+/* Maiores que Desktop 4k: 2560 x 1440 */
+@media (min-width: 2561px) {
+    html {
+        background-size: contain;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+/* Responsividade --Fim*/
+
+/* @media (max-width: 768px) {
+    html {
+        background-size: cover;
+        -webkit-background-size: cover;
         -moz-background-size: 100% auto;
         -o-background-size: 100% auto;
+        font-size: 45%;
         
     }
 }
@@ -38,6 +132,7 @@ html{
         -webkit-background-size: 100% auto;
         -moz-background-size: 100% auto;
         -o-background-size: 100% auto;
+        font-size: 45%;
     }
     .flex-header nav {
         margin-left: -20rem;
@@ -62,8 +157,7 @@ html{
         -o-background-size: contain;
         background-repeat: no-repeat;
     }
-}
-
+} */
 
   
 /* Configuração Universal --Fim */
@@ -113,7 +207,7 @@ html{
 /* Header --Fim*/
 
 
-/* Section --Começo*/
+/* Section Consulta/Explorar --Começo*/
 .flex-section {    
     display: flex;
     flex-direction: row;
@@ -160,7 +254,7 @@ html{
 .flex-section div div label{
     margin: .1rem 1.4rem;
 }
-/* Section  --Fim*/
+/* Section Consulta/Explorar  --Fim*/
 
 
 /* Texto Meio --Começo*/
