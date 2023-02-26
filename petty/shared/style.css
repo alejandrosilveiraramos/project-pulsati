@@ -5,23 +5,31 @@
     background-color: #f7f6f9;
     padding: .8rem 2rem;
     border: none;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
 }
 
 .primary-lbl{
-    border: 2px solid #f7f6f9;
-    padding: 1.4rem .8rem;
+    border: 2px solid #f7f6f9d2;
+    padding: 1rem;
+    
 
 }
-.secundary-btn {
+.secondary-btn {
     color: #fff;
     background-color: #a66fd1;
     padding: .8rem 2rem;
     border: none;
+
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
-.secundary-lbl{
-    border: 2px solid #a66fd1;
-    padding: 1.4rem .8rem;
+.secondary-lbl{
+    border: 2px solid #a76fd17d;
+    padding: 1rem;
 
 }
 
