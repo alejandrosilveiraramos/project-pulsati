@@ -30,7 +30,20 @@ body {
   padding-right: 12px;
 }
 
-  /* contém a imagem com a logo */
+/* .div-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 8vw;
+  padding-bottom: 8vw;
+  padding-left: 12px;
+  padding-right: 12px;
+} */
+
+/* contém a imagem com a logo */
 .div-nome-site {
   display: flex;
   align-items: center;
@@ -39,7 +52,6 @@ body {
   height: 4.056rem;
   margin-bottom: 2rem;
 }
-
 
 .div-caixa {
   display: flex;
@@ -55,36 +67,25 @@ body {
   box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 }
 
-@media screen and (max-width: 418px){
-    .div-main {
-        display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 65.339rem;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  padding-left: 12px;
-  padding-right: 12px;
-        transform: scale(0.98);
-    }
+@media screen and (max-width: 418px) {
+  .div-caixa {
+    transform: scale(0.9);
+  }
 
-    .div-caixa {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 39.8rem;
-        height: 39.283rem;
-      
-        border-radius: 8px;
-        background-color: white;
-        opacity: 0.63;
-      
-        box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
-        transform: scale(0.9);
-    }
+  .div-caixa input {    
+    transform: scale(0.9);
+  }
 }
+
+@media screen and (max-width: 375px) {
+    .div-caixa {
+      transform: scale(0.85);
+    }
+  
+    .div-caixa input {    
+      transform: scale(0.85);
+    }
+  }
 
 /* @media screen and (max-width: 280px) {
     .div-main {
