@@ -13,7 +13,7 @@ html {
 
 body {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 /* div que engloba toda a tela */
@@ -23,9 +23,9 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 65.339rem;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  height: 100vh;
+  /* padding-top: 8rem; */
+  padding-bottom: 20rem;
   padding-left: 12px;
   padding-right: 12px;
 }
