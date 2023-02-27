@@ -14,8 +14,7 @@
     flex-direction: row;
     align-items: center;
     height: auto;
-    border-top: #E7F2DC;
-    border: solid 2px; 
+    border-top: #E7F2DC solid 2px; 
 }
 .historia-img{
     background-color: #E7F2DC;
@@ -45,7 +44,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: auto;  
+    height: auto;
+    border-top: #FDE4F6 solid 2px;
 }
 .servicos-img{
     background-color: #FDE4F6;
