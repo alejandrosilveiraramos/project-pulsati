@@ -2,7 +2,7 @@
 
 .primary-btn {
     color: #000;
-    background-color: #f7f6f9;
+    background-color: #f4f4f4;
     padding: .8rem 2rem;
     border: none;
 
@@ -12,10 +12,16 @@
 }
 
 .primary-lbl{
-    border: 2px solid #f7f6f9d2;
+    border: .3rem solid #f4f4f4;
     padding: 1rem;
+    transition: .3s;
     
 
+}
+.primary-lbl:hover{ 
+    border: .3rem solid #f4f4f4;
+    padding: 1;
+    background-color: #f4f4f4;
 }
 .secondary-btn {
     color: #fff;
@@ -28,9 +34,15 @@
 }
 
 .secondary-lbl{
-    border: 2px solid #a76fd17d;
+    border: .3rem solid #a76fd17d;
     padding: 1rem;
+    transition: 0.3s;
+}
 
+.secondary-lbl:hover{
+    border: .3rem solid #a66fd1;
+    padding: 1;
+    background-color: #a66fd1;
 }
 
 /* Buttons --Fim*/

@@ -33,30 +33,169 @@ html{
     }
 }
 
-/* Iphone 6: 375 x 667 */
-@media (min-width: 375px) and (max-width: 413px) {
+/*SmartPhone: 248 x 374 */
+@media (min-width: 248px) and (max-width: 374px) {
+
+    html {
+        background-image: url('../img/backgroundMobileV1.png');
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 25%;
+        background-position: center top 50rem;
+    }
+    /* Header Mobile --Começo */
+
+    header.flex-header nav{
+        display: none;
+        }
+    header.flex-header div span:first-child{
+        display: none;
+    }
+    header.flex-header div span:last-child{
+        padding-left: 3rem;
+    }
+   
+    header.flex-header div label {
+        margin-left: 2rem;
+       
+    }
+
+    header.flex-header{
+        padding: 1rem 1rem;
+    }
+
+    header.flex-header div{
+        padding: 1rem 1rem;
+    }
+
+    .flex-section div{
+        max-width: 100% !important;
+    }
+    .flex-section div h1{
+        margin-bottom: 6rem;
+    }
+
+    div.flex-section.text-middle{
+        padding-top: 15rem;
+    }
+
+}
+/* Header Mobile --Fim */
+/* Smartphone 375 x 667 */
+@media (min-width: 375px) and (max-width: 899px) {
+
+    html {
+        background-image: url('../img/backgroundMobileV1.png');
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 39%;
+        background-position: center top 50rem;
+    }
+    /* Header Mobile --Começo */
+
+    header.flex-header nav{
+        display: none;
+        }
+    header.flex-header div span:first-child{
+        display: none;
+    }
+    header.flex-header div span:last-child{
+        padding-left: 3rem;
+    }
+   
+    header.flex-header div label {
+        margin-left: 2rem;
+       
+    }
+
+    header.flex-header{
+        padding: 1rem 1rem;
+    }
+
+    header.flex-header div{
+        padding: 1rem 1rem;
+    }
+
+    .flex-section div{
+        max-width: 100% !important;
+    }
+    .flex-section div h1{
+        margin-bottom: 6rem;
+    }
+
+    div.flex-section.text-middle{
+        padding-top: 5rem;
+    }
+    
+
+}
+/* Header Mobile --Fim */
+
+/* Ipad */
+@media (min-width: 900px) and (max-width: 994px) {
     html {
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        font-size: 100%;
+        font-size: 35%;
+    }
+    .flex-header nav ul li a{
+        font-size: 125%;
+        color: #505050;
+        font-weight: 500;
+        
+    }
+    header.flex-header div span:last-child{
+        display: none;
     }
 }
 
-/* Ipad: 1024 x 768 */
-@media (min-width: 768px) and (max-width: 1024px) {
+/* Laptop*/
+@media (min-width: 995px) and (max-width: 1157px) {
     html {
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        font-size: 38%;
+        font-size: 40%;
+    }
+    .flex-header nav ul li a{
+        font-size: 125%;
+        color: #505050;
+        font-weight: 500;
+        
+    }
+    header.flex-header div span:last-child{
+        display: none;
+    }
+}
+/* Desktop */
+@media (min-width: 1158px) and (max-width: 1300px) {
+    html {
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 45%;
+    }
+    .flex-header nav ul li a{
+        font-size: 125%;
+        color: #505050;
+        font-weight: 500;
+        
+    }
+    header.flex-header div span:last-child{
+        display: none;
     }
 }
 
-/* Laptop: 1440 x 900 */
-@media (min-width: 1025px) and (max-width: 1440px) {
+/* Desktop HD*/
+@media (min-width: 1300px) and (max-width: 1680px) {
     html {
         background-size: cover;
         -webkit-background-size: cover;
@@ -64,20 +203,18 @@ html{
         -o-background-size: cover;
         font-size: 50%;
     }
-}
-
-/* Desktop HD: 1680 x 1050 */
-@media (min-width: 1441px) and (max-width: 1680px) {
-    html {
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        font-size: 56%;
+    .flex-header nav ul li a{
+        font-size: 125%;
+        color: #505050;
+        font-weight: 500;
+        
+    }
+    header.flex-header div span:last-child{
+        display: none;
     }
 }
 
-/* Desktop Full HD: 1920 x 1080 */
+/* Desktop Full HD*/
 @media (min-width: 1681px) and (max-width: 1920px) {
     html {
         background-size: cover;
@@ -86,9 +223,12 @@ html{
         -o-background-size: cover;
         font-size: 65%;
     }
+    header.flex-header div span:last-child{
+        display: none;
+    }
 }
 
-/* Desktop 4k: 2560 x 1440 */
+/* Desktop 4k */
 @media (min-width: 1921px) and (max-width: 2560px) {
     html {
         background-size: cover;
@@ -100,9 +240,18 @@ html{
     .flex-header nav {
         margin-left: -20rem;
     }
+    .flex-header nav ul li a{
+        font-size: 80%;
+        color: #505050;
+        font-weight: 500;
+        
+    }
+    header.flex-header div span:last-child{
+        display: none;
+    }
 }
 
-/* Maiores que Desktop 4k: 2560 x 1440 */
+/* Maiores que Desktop 4k*/
 @media (min-width: 2561px) {
     html {
         background-size: contain;
@@ -111,58 +260,19 @@ html{
         -o-background-size: contain;
         background-repeat: no-repeat;
     }
-}
-
-/* Responsividade --Fim*/
-
-/* @media (max-width: 768px) {
-    html {
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: 100% auto;
-        -o-background-size: 100% auto;
-        font-size: 45%;
-        
+    header.flex-header div span:last-child{
+        display: none;
     }
 }
 
-@media (min-width: 769px) and (max-width: 1366px) {
-    html {
-        background-size: 100% auto;
-        -webkit-background-size: 100% auto;
-        -moz-background-size: 100% auto;
-        -o-background-size: 100% auto;
-        font-size: 45%;
-    }
-    .flex-header nav {
-        margin-left: -20rem;
-        
-    }
-}
 
-@media (min-width: 1367px) and (max-width: 1920px) {
-    html {
-        background-size: 100% auto;
-        -webkit-background-size: 100% auto;
-        -moz-background-size: 100% auto;
-        -o-background-size: 100% auto;
-    }
-}
-
-@media (min-width: 1921px) {
-    html {
-        background-size: contain;
-        -webkit-background-size: contain;
-        -moz-background-size: contain;
-        -o-background-size: contain;
-        background-repeat: no-repeat;
-    }
-} */
-
-  
-/* Configuração Universal --Fim */
 
 /* Header --Começo*/
+.flex-header nav {
+    font-size: 20rem;
+}
+
+
 .flex-header {
     background-color: #fff;
     display: flex;
@@ -171,6 +281,9 @@ html{
     align-items: center;
 
     padding: .7rem 5rem;
+
+    color: #505050;
+    font-weight: 500;
     
 }
 
@@ -199,7 +312,7 @@ html{
 .flex-header div label{
     margin-left: 20px;
 }
-.flex-header div span{
+.flex-header div span:first-child{
     margin-right: 30px;
 }
 
@@ -260,7 +373,7 @@ html{
 /* Texto Meio --Começo*/
 
 .text-middle {
-    padding-top: 65rem;
+    padding-top: 45rem
 }
 
 /* Texto Meio --Fim*/
