@@ -68,35 +68,51 @@ body {
 }
 
 @media screen and (max-width: 418px) {
-  .div-caixa {
+  .div-main {
     transform: scale(0.9);
   }
 
-  .div-caixa input {    
+  .div-nome-site {
+    transform: scale(0.9);
+    margin-bottom: 1rem;
+}
+
+  .div-caixa {    
     transform: scale(0.9);
   }
 }
 
 @media screen and (max-width: 375px) {
-    .div-caixa {
+    .div-main {
       transform: scale(0.85);
     }
+
+    .div-nome-site {
+        transform: scale(0.85);
+        margin-bottom: 0.2rem;
+    }
   
-    .div-caixa input {    
+    .div-caixa {    
       transform: scale(0.85);
     }
   }
 
-/* @media screen and (max-width: 280px) {
+  @media screen and (max-width: 298px) {
     .div-main {
-        transform: scale(0.8);
-    }
+        transform: scale(0.83);
+      }
+  
+      .div-nome-site {
+          transform: scale(0.83);
+          margin-bottom: 0rem;
+      }
+    
+      .div-caixa {    
+        transform: scale(0.83);
+      }
+  }
 
-    .div-caixa {
-        transform: scale(0.8);
-    }
-}
-
+  /*
 @media screen and (max-width: 360px) {
     .div-main {
         transform: scale(1);
