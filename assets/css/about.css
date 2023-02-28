@@ -41,7 +41,8 @@ div{
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    animation: rotacionar1 7s infinite ease-in-out;
 }
 .historia-img img{
     width: 50%;
@@ -88,7 +89,8 @@ div{
     width: 40vw;
     display: flex;
     justify-content: center;
-    align-items: center 
+    animation: rotacionar1 7s infinite ease-in-out;
+    align-items: center;
 }
 .resgate-img img{
     width: 50%;
@@ -177,6 +179,15 @@ div{
     .titulo p{
         font-size: 23px;
     }
+    .historia{
+        margin-top: 100px;
+    }
+    .resgate{
+        margin-top: 100px;
+    }
+    .equipe{
+        margin-top: 100px;
+    }
 }
   @media screen and (max-width: 890px) {
     .imagem-grande img{
@@ -250,6 +261,15 @@ div{
 @media screen and (max-width: 590px) {
     .equipe-txt p{
         font-size: 12px;
+    }
+    .historia{
+        margin-top: 60px;
+    }
+    .resgate{
+        margin-top: 60px;
+    }
+    .equipe{
+        margin-top: 600px;
     }
 }
 @media screen and (max-width: 414px) {
@@ -386,8 +406,26 @@ div{
     }
 }
 
+@keyframes rotacionar1 {
+    0%, 100%{
+        transform: rotate(-10deg);
+    }
+
+    50%{
+        transform: rotate(10deg);
+    }
+}
 
 
+@keyframes rotacionar2 {
+    0%, 100%{
+        transform: rotate(10deg);
+    }
+
+    50%{
+        transform: rotate(-10deg);
+    }
+}
 
 
 
