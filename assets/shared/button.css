@@ -9,6 +9,8 @@
     font-size: 1.5rem;
     font-weight: bold;
 
+    cursor: pointer;
+
 }
 
 .primary-lbl{
@@ -22,6 +24,7 @@
     border: .3rem solid #f4f4f4;
     padding: 1;
     background-color: #f4f4f4;
+    cursor: pointer;
 }
 .secondary-btn {
     color: #fff;
@@ -31,6 +34,8 @@
 
     font-size: 1.5rem;
     font-weight: bold;
+
+    cursor: pointer;
 }
 
 .secondary-lbl{
@@ -41,8 +46,9 @@
 
 .secondary-lbl:hover{
     border: .3rem solid #a66fd1;
-    padding: 1;
+    padding: 1t;
     background-color: #a66fd1;
+    cursor: pointer;
 }
 
 /* Buttons --Fim*/
