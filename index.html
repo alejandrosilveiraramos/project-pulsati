@@ -13,11 +13,26 @@
     />
     <link rel="stylesheet" href="/assets/shared/button.css" />
 
+    <!-- favicon -->
+    <link
+      rel="stylesheet"
+      href="assets/img/favicon_io/android-chrome-512x512.png"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/img/favicon_io/android-chrome-192x192.png"
+    />
+    <link rel="stylesheet" href="assets/img/favicon_io/apple-touch-icon.png" />
+    <link rel="stylesheet" href="assets/img/favicon_io/favicon-16x16.png" />
+    <link rel="stylesheet" href="assets/img/favicon_io/favicon-32x32.png" />
+    <link rel="stylesheet" href="assets/img/favicon_io/favicon.ico" />
+
     <title>Home</title>
   </head>
   <body>
+    <!-- Header-flex --Começo -->
     <header class="flex-header">
-      <img src="assets/img/logo.png" alt="logo" />
+      <a href=""><img src="assets/img/logo.png" alt="logo" /></a>
       <!-- Páginas --Começo -->
       <nav>
         <ul>
@@ -31,21 +46,36 @@
       <!-- Páginas --Fim -->
       <!-- Menu --Começo -->
       <div class="flex-header">
-        <span class="material-symbols-outlined"> shopping_cart </span>
-        <label class="primary-lbl" for="">
-          <button class="primary-btn">
-            <a href="pages/login.html">Login</a>
-          </button></label
+        <span class="material-symbols-outlined hide-cart"> shopping_cart </span>
+        <a class="primary-lbl" href="./pages/login.html">
+          <button class="primary-btn">Login</button>
+        </a>
+        <a class="secondary-lbl">
+          <button class="secondary-btn">Registrar-se</button></a
         >
-        <label class="secondary-lbl" for="">
-          <button class="secondary-btn">Registrar-se</button></label
-        >
-        <button>
-          <span class="material-symbols-outlined"> menu </span>
+        <button class="hide-menu" id="btnMenu">
+          <span class="material-symbols-outlined hide-menu"> menu </span>
         </button>
       </div>
       <!-- Menu --Fim -->
     </header>
+    <!-- Header-flex --Fim -->
+    <!-- Side Menu --Começo -->
+    <div id="menu" class="menu effect">
+      <nav>
+        <div class="top-menu">
+          <img src="assets/img/logo.png" alt="" />
+          <div style="text-align: right">
+            <button id="btnClose">X</button>
+          </div>
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/about.html">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Side Menu --Fim -->
     <!-- Consulta/Explorar inicial --Começo -->
     <section class="flex-section">
       <div>
@@ -59,10 +89,10 @@
           </p>
         </div>
         <div>
-          <label class="secondary-lbl" for="">
+          <label class="secondary-lbl">
             <button class="secondary-btn">Consulta Online</button>
           </label>
-          <label class="primary-lbl" for="">
+          <label class="primary-lbl">
             <button class="primary-btn">Explorar produtos</button>
           </label>
         </div>
@@ -101,5 +131,7 @@
       </div>
     </footer> -->
     <!-- Footer --Fim -->
+
+    <script src="js/menu.js"></script>
   </body>
 </html>

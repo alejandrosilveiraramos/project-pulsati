@@ -40,11 +40,13 @@ html{
     header.flex-header nav{
         display: none;
         }
-    header.flex-header div span:first-child{
+    span.hide-cart{
         display: none;
     }
-    header.flex-header div span:last-child{
-        padding-left: 3rem;
+    header.flex-header button.hide-menu{
+        margin-left: 3rem;
+        background-color: transparent;
+        border: none;
     }
    
     header.flex-header div label {
@@ -90,11 +92,13 @@ html{
     header.flex-header nav{
         display: none;
         }
-    header.flex-header div span:first-child{
+    span.hide-cart{
         display: none;
     }
-    header.flex-header div span:last-child{
-        padding-left: 3rem;
+    header.flex-header button.hide-menu{
+        margin-left: 3rem;
+        background-color: transparent;
+        border: none;
     }
    
     header.flex-header div label {
@@ -141,11 +145,13 @@ html{
     header.flex-header nav{
         display: none;
         }
-    header.flex-header div span:first-child{
+    span.hide-cart{
         display: none;
     }
-    header.flex-header div span:last-child{
-        padding-left: 3rem;
+    header.flex-header button.hide-menu{
+        margin-left: 3rem;
+        background-color: transparent;
+        border: none;
     }
    
     header.flex-header div label {
@@ -175,7 +181,7 @@ html{
 
 }
 /* Header Mobile --Fim */
-/* Smartphone 375 x 539 */
+/* Smartphone 412 x 539 */
 @media (min-width: 412px) and (max-width: 539px) {
 
     html {
@@ -192,11 +198,13 @@ html{
     header.flex-header nav{
         display: none;
         }
-    header.flex-header div span:first-child{
+    span.hide-cart{
         display: none;
     }
-    header.flex-header div span:last-child{
-        padding-left: 3rem;
+    header.flex-header button.hide-menu{
+        margin-left: 3rem;
+        background-color: transparent;
+        border: none;
     }
    
     header.flex-header div label {
@@ -243,11 +251,13 @@ html{
     header.flex-header nav{
         display: none;
         }
-    header.flex-header div span:first-child{
+    span.hide-cart{
         display: none;
     }
-    header.flex-header div span:last-child{
-        padding-left: 3rem;
+    header.flex-header button.hide-menu{
+        margin-left: 3rem;
+        background-color: transparent;
+        border: none;
     }
    
     header.flex-header div label {
@@ -294,11 +304,13 @@ html{
     header.flex-header nav{
         display: none;
         }
-    header.flex-header div span:first-child{
+    span.hide-cart{
         display: none;
     }
-    header.flex-header div span:last-child{
-        padding-left: 3rem;
+    header.flex-header button.hide-menu{
+        margin-left: 3rem;
+        background-color: transparent;
+        border: none;
     }
    
     header.flex-header div label {
@@ -342,11 +354,13 @@ html{
     header.flex-header nav{
         display: none;
         }
-    header.flex-header div span:first-child{
+    span.hide-cart{
         display: none;
     }
-    header.flex-header div span:last-child{
-        padding-left: 3rem;
+    header.flex-header button.hide-menu{
+        margin-left: 3rem;
+        background-color: transparent;
+        border: none;
     }
    
     header.flex-header div label {
@@ -389,7 +403,7 @@ html{
         font-weight: 500;
         
     }
-    header.flex-header div span:last-child{
+    .hide-menu {
         display: none;
     }
 }
@@ -409,7 +423,7 @@ html{
         font-weight: 500;
         
     }
-    header.flex-header div span:last-child{
+    .hide-menu {
         display: none;
     }
 }
@@ -428,7 +442,7 @@ html{
         font-weight: 500;
         
     }
-    header.flex-header div span:last-child{
+    .hide-menu {
         display: none;
     }
 }
@@ -448,7 +462,7 @@ html{
         font-weight: 500;
         
     }
-    header.flex-header div span:last-child{
+    .hide-menu {
         display: none;
     }
 }
@@ -462,7 +476,7 @@ html{
         -o-background-size: cover;
         font-size: 65%;
     }
-    header.flex-header div span:last-child{
+    .hide-menu {
         display: none;
     }
 }
@@ -485,7 +499,7 @@ html{
         font-weight: 500;
         
     }
-    header.flex-header div span:last-child{
+    .hide-menu {
         display: none;
     }
 }
@@ -499,7 +513,7 @@ html{
         -o-background-size: contain;
         background-repeat: no-repeat;
     }
-    header.flex-header div span:last-child{
+    .hide-menu {
         display: none;
     }
 }
@@ -507,6 +521,7 @@ html{
 
 
 /* Header --Começo*/
+
 .flex-header nav {
     font-size: 20rem;
 }
@@ -536,27 +551,86 @@ html{
 
 .flex-header ul li{
     
-    padding: 20px;
+    
     list-style: none;
     padding-left: 2rem;
     
 }
-.flex-header a{
-    color: #7d7d7d;
-    font-weight: bold;
-    text-decoration: none;
-    
-}
 
-.flex-header div label{
+
+.flex-header a{
     margin-left: 20px;
 }
-.flex-header div span:first-child{
+.hide-cart{
     margin-right: 30px;
 }
 
-
 /* Header --Fim*/
+
+/* Side Menu --Começo */
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-menu img{
+    padding: 2rem;
+}
+
+
+#btnMenu:active {
+    background-color: rgb(246, 246, 246);
+}
+
+#btnClose {
+    padding: 8px;
+    background-color: transparent;
+    color: #000;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    margin: .5rem;
+    font-weight: 500;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: var(--menu-size);
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: block;
+}
+
+.menu ul li a {
+    transition: background 0.3s;
+    display: block;
+    color: #000;
+    font-size: 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(157, 157, 157);
+}
+
+.effect {
+    transition: margin 0.4s;
+}
+
+
+/* Side Menu --Fim */
 
 
 /* Section Consulta/Explorar --Começo*/
