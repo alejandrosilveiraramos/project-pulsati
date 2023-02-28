@@ -177,9 +177,8 @@ html {
     padding-top: 5rem;
   }
 }
-/* Header Mobile --Fim */
-/* Smartphone 412 x 539 */
-@media (min-width: 412px) and (max-width: 539px) {
+/* Smartphone 375 x 539 */
+@media (min-width: 500px) and (max-width: 540px) {
   html {
     background-image: url("../img/backgroundMobileV1.png");
     background-size: cover;
@@ -187,7 +186,7 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     font-size: 30%;
-    background-position: center top 30rem;
+    background-position: center top 20rem;
   }
   /* Header Mobile --Começo */
 
@@ -226,10 +225,11 @@ html {
   }
 
   div.flex-section.text-middle {
-    padding-top: 15rem;
+    padding-top: 30rem;
   }
 }
 /* Header Mobile --Fim */
+
 /* Smartphone 540 x 699 */
 @media (min-width: 540px) and (max-width: 699px) {
   html {
