@@ -22,19 +22,9 @@ html{
 }
 
 /* Responsividade --Começo*/
-/* Iphone 5: 320 x 568 */
-@media (max-width: 374px) {
-    html {
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        font-size: 45%;
-    }
-}
 
-/*SmartPhone: 248 x 374 */
-@media (min-width: 248px) and (max-width: 374px) {
+/*SmartPhone: 248 x 359 */
+@media (min-width: 248px) and (max-width: 359px) {
 
     html {
         background-image: url('../img/backgroundMobileV1.png');
@@ -83,8 +73,8 @@ html{
 
 }
 /* Header Mobile --Fim */
-/* Smartphone 375 x 667 */
-@media (min-width: 375px) and (max-width: 899px) {
+/*SmartPhone: 248 x 359 */
+@media (min-width: 360px) and (max-width: 374px) {
 
     html {
         background-image: url('../img/backgroundMobileV1.png');
@@ -92,7 +82,58 @@ html{
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        font-size: 39%;
+        font-size: 25%;
+        background-position: center top 30rem;
+    }
+    /* Header Mobile --Começo */
+
+    header.flex-header nav{
+        display: none;
+        }
+    header.flex-header div span:first-child{
+        display: none;
+    }
+    header.flex-header div span:last-child{
+        padding-left: 3rem;
+    }
+   
+    header.flex-header div label {
+        margin-left: 2rem;
+       
+    }
+
+    header.flex-header{
+        padding: 1rem 1rem;
+    }
+
+    header.flex-header div{
+        padding: 1rem 1rem;
+    }
+
+    .flex-section div{
+        max-width: 100% !important;
+    }
+    .flex-section div h1{
+        margin-bottom: 6rem;
+    }
+
+    div.flex-section.text-middle{
+        padding-top: 15rem;
+    }
+
+}
+/* Header Mobile --Fim */
+
+/* Smartphone 375 x 539 */
+@media (min-width: 375px) and (max-width: 539px) {
+
+    html {
+        background-image: url('../img/backgroundMobileV1.png');
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 37%;
         background-position: center top 50rem;
     }
     /* Header Mobile --Começo */
@@ -129,6 +170,204 @@ html{
 
     div.flex-section.text-middle{
         padding-top: 5rem;
+    }
+    
+
+}
+/* Header Mobile --Fim */
+/* Smartphone 375 x 539 */
+@media (min-width: 412px) and (max-width: 539px) {
+
+    html {
+        background-image: url('../img/backgroundMobileV1.png');
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 30%;
+        background-position: center top 30rem;
+    }
+    /* Header Mobile --Começo */
+
+    header.flex-header nav{
+        display: none;
+        }
+    header.flex-header div span:first-child{
+        display: none;
+    }
+    header.flex-header div span:last-child{
+        padding-left: 3rem;
+    }
+   
+    header.flex-header div label {
+        margin-left: 2rem;
+       
+    }
+
+    header.flex-header{
+        padding: 1rem 1rem;
+    }
+
+    header.flex-header div{
+        padding: 1rem 1rem;
+    }
+
+    .flex-section div{
+        max-width: 100% !important;
+    }
+    .flex-section div h1{
+        margin-bottom: 6rem;
+    }
+
+    div.flex-section.text-middle{
+        padding-top: 15rem;
+    }
+    
+
+}
+/* Header Mobile --Fim */
+/* Smartphone 540 x 699 */
+@media (min-width: 540px) and (max-width: 699px) {
+
+    html {
+        background-image: url('../img/backgroundMobileV1.png');
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 26%;
+        background-position: center top 8rem;
+    }
+    /* Header Mobile --Começo */
+
+    header.flex-header nav{
+        display: none;
+        }
+    header.flex-header div span:first-child{
+        display: none;
+    }
+    header.flex-header div span:last-child{
+        padding-left: 3rem;
+    }
+   
+    header.flex-header div label {
+        margin-left: 2rem;
+       
+    }
+
+    header.flex-header{
+        padding: 1rem 1rem;
+    }
+
+    header.flex-header div{
+        padding: 1rem 1rem;
+    }
+
+    .flex-section div{
+        max-width: 100% !important;
+    }
+    .flex-section div h1{
+        margin-bottom: 6rem;
+    }
+
+    div.flex-section.text-middle{
+        padding-top: 38rem;
+    }
+    
+
+}
+/* Header Mobile --Fim */
+/* Smartphone 820 x 899 */
+@media (min-width: 700px) and (max-width: 819px) {
+
+    html {
+        background-image: url('../img/backgroundV1.png');
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 30%;
+        background-position: center top 1;
+    }
+    /* Header Mobile --Começo */
+
+    header.flex-header nav{
+        display: none;
+        }
+    header.flex-header div span:first-child{
+        display: none;
+    }
+    header.flex-header div span:last-child{
+        padding-left: 3rem;
+    }
+   
+    header.flex-header div label {
+        margin-left: 2rem;
+       
+    }
+
+    header.flex-header{
+        padding: 1rem 1rem;
+    }
+
+    header.flex-header div{
+        padding: 1rem 1rem;
+    }
+
+    .flex-section div h1{
+        margin-bottom: 1rem;
+    }
+
+    div.flex-section.text-middle{
+        padding-top: 40rem;
+    }
+    
+
+}
+/* Header Mobile --Fim */
+/* Smartphone 820 x 899 */
+@media (min-width: 820px) and (max-width: 899px) {
+
+    html {
+        background-image: url('../img/backgroundV1.png');
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        font-size: 30%;
+        background-position: center top 10rem;
+    }
+    /* Header Mobile --Começo */
+
+    header.flex-header nav{
+        display: none;
+        }
+    header.flex-header div span:first-child{
+        display: none;
+    }
+    header.flex-header div span:last-child{
+        padding-left: 3rem;
+    }
+   
+    header.flex-header div label {
+        margin-left: 2rem;
+       
+    }
+
+    header.flex-header{
+        padding: 1rem 1rem;
+    }
+
+    header.flex-header div{
+        padding: 1rem 1rem;
+    }
+
+    .flex-section div h1{
+        margin-bottom: 1rem;
+    }
+
+    div.flex-section.text-middle{
+        padding-top: 40rem;
     }
     
 
