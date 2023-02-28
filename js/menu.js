@@ -2,9 +2,14 @@
 
 const menuSize = '500px';
 
+const hideNav = document.querySelector('.hide-nav')
+
+const showNav = document.querySelector('.show-nav')
+
 let open = true;
 
 document.querySelector('#btnMenu').addEventListener('click', e => {
+    hideNav.classList.add('show-nav');
     open = !open;
     toggleMenu();
 })
