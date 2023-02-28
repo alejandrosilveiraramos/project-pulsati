@@ -109,10 +109,11 @@ div{
     width: 50vw;
     display: flex;
     justify-content: right;
-    align-items: center
+    align-items: center;
+    margin: 2rem;
 }
 .equipe-img img{
-    width: 50%;
+    width: 400px;
     transform: rotate(0deg);
     border: 10px solid;
     border-color: #c0daab;
