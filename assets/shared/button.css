@@ -9,6 +9,8 @@
     font-size: 1.5rem;
     font-weight: bold;
 
+    cursor: pointer;
+
 }
 
 .primary-lbl{
@@ -32,6 +34,8 @@
 
     font-size: 1.5rem;
     font-weight: bold;
+
+    cursor: pointer;
 }
 
 .secondary-lbl{
