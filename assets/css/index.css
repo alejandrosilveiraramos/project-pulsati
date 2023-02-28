@@ -526,6 +526,9 @@ html{
 span{
     cursor: pointer;
 }
+a:-webkit-any-link{
+    text-decoration: none !important;
+}
 
 /* Header --Começo*/
 
@@ -586,8 +589,10 @@ span{
     padding: 2rem;
 }
 
+
 #btnMenu:active {
     background-color: rgb(246, 246, 246);
+    
 }
 
 #btnClose {
@@ -608,9 +613,7 @@ span{
     background-color: #f4f4f4;
 }
 
-a:-webkit-any-link{
-    text-decoration: none !important;
-}
+
 
 .menu ul {
     list-style: none;

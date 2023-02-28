@@ -1,6 +1,6 @@
 'use strict'
 
-const menuSize = '40%';
+const menuSize = '500px';
 
 let open = true;
 
