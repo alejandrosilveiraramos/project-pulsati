@@ -177,6 +177,15 @@ div{
     .titulo p{
         font-size: 23px;
     }
+    .historia{
+        margin-top: 100px;
+    }
+    .resgate{
+        margin-top: 100px;
+    }
+    .equipe{
+        margin-top: 100px;
+    }
 }
   @media screen and (max-width: 890px) {
     .imagem-grande img{
@@ -250,6 +259,15 @@ div{
 @media screen and (max-width: 590px) {
     .equipe-txt p{
         font-size: 12px;
+    }
+    .historia{
+        margin-top: 60px;
+    }
+    .resgate{
+        margin-top: 60px;
+    }
+    .equipe{
+        margin-top: 600px;
     }
 }
 @media screen and (max-width: 414px) {
